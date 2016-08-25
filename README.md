@@ -10,6 +10,12 @@ You can preview the theme at http://jasonlong.github.io/cayman-theme or with rea
 
 ## How to use it?
 
+### Install dependencies
+
+`make_docs.py` is a script to create API documentation for a given module. It'll write files into `/docs/api`, which will get rendered by GitHub Pages. To install its requirements:
+
+        $ pip install -r requirements.txt
+
 ### Stand-alone
 
 Download the theme @ http://github.com/pietromenna/jekyll-cayman-theme/archive/master.zip
