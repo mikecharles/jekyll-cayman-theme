@@ -45,6 +45,7 @@ To simply add boilerplate documentation, that will be built by GitHub Pages, to 
     $ cd <project-root>
     $ git clone --depth=1 --branch=master https://github.com/mikecharles/jekyll-cayman-theme.git docs
     $ rm -rf docs/.git
+    $ cat docs/.gitignore >> .gitignore
 
 ## Setup
 
