@@ -8,7 +8,9 @@ You can preview the theme at http://jasonlong.github.io/cayman-theme or with rea
 
 ![](http://cl.ly/image/1T3r3d18311V/content)
 
-# How to use it?
+## How to use it?
+
+### Stand-alone
 
 Download the theme @ http://github.com/pietromenna/jekyll-cayman-theme/archive/master.zip
 
@@ -36,12 +38,20 @@ $ jekyll serve
 
 For more details read about [Jekyll][1] on its web page.
 
-# Setup
+### Insert it into an existing project's /doc folder
+
+To simply add boilerplate documentation, that will be built by GitHub Pages, to an existing project:
+
+    $ cd <project-root>
+    $ git clone --depth=1 --branch=master https://github.com/mikecharles/jekyll-cayman-theme.git docs
+    $ rm -rf docs/.git
+
+## Setup
 
 Some important configuration can be done in the file `_config.yml`. Please, check the Setup section in that file.
 
 
-## baseurl
+### baseurl
 
 `baseurl` parameter is required in the case the site doesn't sit on the root of the domain. For example: http://pietromenna.github.io/jekyll-cayman-theme
 
@@ -49,17 +59,17 @@ In the case above the baseurl should be set to "/jekyll-cayman-theme".
 
 In the case the site sits in the root, you can leave `baseurl` as empty "".
 
-# Contributing
+## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/pietromenn/jekyll-cayman-theme.
 
-# Development
+## Development
 
 To set up your environment to develop this theme, run `bundle install`.
 
 You theme is setup just like a normal Jelyll site! To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
 
-# License
+## License
 
 This work is licensed under a [Creative Commons Attribution 4.0 International](http://creativecommons.org/licenses/by/4.0/) license.
 
