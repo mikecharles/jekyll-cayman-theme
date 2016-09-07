@@ -53,6 +53,10 @@ To simply add boilerplate documentation, that will be built by GitHub Pages, to 
     $ rm -rf docs/.git
     $ cat docs/.gitignore >> .gitignore
 
+You should also add the `make_docs.py` requirements to your project's requirements:
+
+    $ cat docs/requirements.txt >> requirements.txt
+
 ## Setup
 
 Some important configuration can be done in the file `_config.yml`. Please, check the Setup section in that file.
